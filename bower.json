@@ -1,0 +1,24 @@
+{
+  "name": "angular-gson",
+  "version": "0.1.0",
+  "homepage": "https://github.com/aaaristo/angular-gson",
+  "authors": [
+    "aaaristo"
+  ],
+  "description": "Encode/decode circular javascript object graphs in angularjs $http transformRequest/transformResponse",
+  "main": "angular-gson.js",
+  "keywords": [
+    "angularjs",
+    "object",
+    "graphs",
+    "$http"
+  ],
+  "license": "Apache2",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
