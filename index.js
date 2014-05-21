@@ -1,4 +1,5 @@
-var GSON= require('gson');
+var GSON= require('gson'),
+    inspect = require('util-inspect');
 
 angular.module('angular-gson',[])
        .config(['$httpProvider',function ($httpProvider)
@@ -12,4 +13,11 @@ angular.module('angular-gson',[])
           {
              return GSON.decode(obj);
           });
-       }]);
+       }])
+       .filter('gson', function()
+       {
+            return function (value)
+            {
+              return inspect(value);
+            };
+       });
