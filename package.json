@@ -1,6 +1,6 @@
 {
   "name": "angular-gson",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Encode/decode circular javascript object graphs in angularjs $http transformRequest/transformResponse",
   "main": "index.js",
   "scripts": {
